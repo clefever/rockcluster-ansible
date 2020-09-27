@@ -1,13 +1,13 @@
 ---
 - hosts: k3s_worker 
-  user: pi
+  user: chris
   become: yes
   become_user: root
   tasks:
   - name: Uninstall k3s from the agent node
     shell: /usr/local/bin/k3s-agent-uninstall.sh
 - hosts: k3s_coordinator 
-  user: pi
+  user: chris
   become: yes
   become_user: root
   tasks:

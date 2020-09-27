@@ -1,7 +1,7 @@
 ---
-- name: Playbook for upgrading the RPis
-  hosts: raspberry_pi
-  user: pi
+- name: Playbook for upgrading the Rock64s
+  hosts: rock_cluster
+  user: chris
   gather_facts: no
   tasks:
     - name: Update and upgrade apt packages

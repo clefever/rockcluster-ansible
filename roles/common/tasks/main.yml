@@ -38,7 +38,7 @@
 - name: 'set default shell for users'
   become: yes
   user:
-    name: pi
+    name: chris
     shell: /bin/zsh
 - name: 'write .zshrc for users'
   template:

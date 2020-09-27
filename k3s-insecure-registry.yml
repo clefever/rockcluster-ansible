@@ -1,6 +1,6 @@
 ---
 - hosts: all
-  user: pi
+  user: chris
   become: yes
   vars_prompt:
     - name: insecure_registry_host

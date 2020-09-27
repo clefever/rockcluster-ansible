@@ -1,7 +1,7 @@
 ---
-- name: Playbook for managing the updates in RPi
+- name: Playbook for managing the updates in Rock64
   hosts: all 
-  user: pi
+  user: chris
   tasks:
     - name: 'Update apt package cache'
       become: yes
